@@ -1,0 +1,38 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "planeta-girando",
+  "name": "Planeta que gira",
+  "description": "Pequeño planeta que da una vuelta completa a lo largo del clip.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {
+        "pitch": -90,
+        "fov": 270
+      },
+      "options": {
+        "projection": "stereographic"
+      }
+    }
+  ],
+  "curves": [
+    {
+      "effect": "rodaje.reframe360",
+      "parameter": "yaw",
+      "keys": [
+        {
+          "t": 0,
+          "value": -180,
+          "interp": "linear"
+        },
+        {
+          "t": 1,
+          "value": 180
+        }
+      ]
+    }
+  ]
+}

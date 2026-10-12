@@ -1,0 +1,32 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "acercamiento",
+  "name": "Acercamiento 360",
+  "description": "Cierra el campo de visión de 120° a 60° a lo largo del clip.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {}
+    }
+  ],
+  "curves": [
+    {
+      "effect": "rodaje.reframe360",
+      "parameter": "fov",
+      "keys": [
+        {
+          "t": 0,
+          "value": 120,
+          "interp": "easeInOut"
+        },
+        {
+          "t": 1,
+          "value": 60
+        }
+      ]
+    }
+  ]
+}

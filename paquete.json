@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "id": "rodaje-360",
+  "version": "1.0.0",
+  "kind": "content",
+  "name": "Video 360",
+  "description": "Activa el video 360 de Rodaje: reencuadre del equirectangular a una vista plana con keyframes, pequeño planeta, paneos y exportación 360 con metadatos esféricos. Contenido propio de dominio público (CC0).",
+  "author": "Dathinel",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/Dathinel/rodaje-360",
+  "apps": [
+    "rodaje"
+  ],
+  "items": [
+    {
+      "id": "mirar-al-frente",
+      "kind": "effect",
+      "name": "Mirar al frente",
+      "file": "efectos/mirar-al-frente.json",
+      "description": "Una cámara normal de 90° mirando al centro del video 360."
+    },
+    {
+      "id": "gran-angular",
+      "kind": "effect",
+      "name": "Gran angular",
+      "file": "efectos/gran-angular.json",
+      "description": "Campo de visión de 120°, como una cámara de acción."
+    },
+    {
+      "id": "pequeno-planeta",
+      "kind": "effect",
+      "name": "Pequeño planeta",
+      "file": "efectos/pequeno-planeta.json",
+      "description": "Mira al suelo con proyección estereográfica: el lugar se curva en un planeta."
+    },
+    {
+      "id": "tunel",
+      "kind": "effect",
+      "name": "Túnel",
+      "file": "efectos/tunel.json",
+      "description": "Mira al cielo con proyección estereográfica: el horizonte rodea la imagen como un túnel."
+    },
+    {
+      "id": "paneo-completo",
+      "kind": "effect",
+      "name": "Paneo de 360°",
+      "file": "efectos/paneo-completo.json",
+      "description": "Da la vuelta completa a lo largo del clip, de izquierda a derecha."
+    },
+    {
+      "id": "paneo-suave",
+      "kind": "effect",
+      "name": "Paneo suave a la derecha",
+      "file": "efectos/paneo-suave.json",
+      "description": "Gira un cuarto de vuelta a la derecha, con entrada y salida suaves."
+    },
+    {
+      "id": "acercamiento",
+      "kind": "effect",
+      "name": "Acercamiento 360",
+      "file": "efectos/acercamiento.json",
+      "description": "Cierra el campo de visión de 120° a 60° a lo largo del clip."
+    },
+    {
+      "id": "mirar-arriba",
+      "kind": "effect",
+      "name": "Levantar la mirada",
+      "file": "efectos/mirar-arriba.json",
+      "description": "Pasa de mirar al horizonte a mirar 60° hacia arriba."
+    },
+    {
+      "id": "planeta-girando",
+      "kind": "effect",
+      "name": "Planeta que gira",
+      "file": "efectos/planeta-girando.json",
+      "description": "Pequeño planeta que da una vuelta completa a lo largo del clip."
+    },
+    {
+      "id": "360-4k-hevc",
+      "kind": "export-preset",
+      "name": "Video 360 4K (H.265)",
+      "file": "preajustes/360-4k-hevc.json",
+      "description": "Equirectangular de 3840×1920 en HEVC con metadatos esféricos, para YouTube y visores 360."
+    },
+    {
+      "id": "360-57k-hevc",
+      "kind": "export-preset",
+      "name": "Video 360 5,7K (H.265)",
+      "file": "preajustes/360-57k-hevc.json",
+      "description": "Equirectangular de 5760×2880 en HEVC con metadatos esféricos, para cámaras 360 de alta resolución."
+    },
+    {
+      "id": "360-4k-h264",
+      "kind": "export-preset",
+      "name": "Video 360 4K (H.264)",
+      "file": "preajustes/360-4k-h264.json",
+      "description": "Equirectangular de 3840×1920 en H.264 con metadatos esféricos, para reproductores que no leen HEVC."
+    }
+  ]
+}

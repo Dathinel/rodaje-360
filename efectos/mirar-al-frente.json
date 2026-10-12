@@ -1,0 +1,20 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "mirar-al-frente",
+  "name": "Mirar al frente",
+  "description": "Una cámara normal de 90° mirando al centro del video 360.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0,
+        "fov": 90
+      }
+    }
+  ]
+}

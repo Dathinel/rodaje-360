@@ -1,0 +1,21 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "pequeno-planeta",
+  "name": "Pequeño planeta",
+  "description": "Mira al suelo con proyección estereográfica: el lugar se curva en un planeta.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {
+        "pitch": -90,
+        "fov": 270
+      },
+      "options": {
+        "projection": "stereographic"
+      }
+    }
+  ]
+}

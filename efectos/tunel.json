@@ -1,0 +1,21 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "tunel",
+  "name": "Túnel",
+  "description": "Mira al cielo con proyección estereográfica: el horizonte rodea la imagen como un túnel.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {
+        "pitch": 90,
+        "fov": 240
+      },
+      "options": {
+        "projection": "stereographic"
+      }
+    }
+  ]
+}

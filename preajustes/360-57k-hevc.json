@@ -1,0 +1,28 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "360-57k-hevc",
+  "name": "Video 360 5,7K (H.265)",
+  "description": "Equirectangular de 5760×2880 en HEVC con metadatos esféricos, para cámaras 360 de alta resolución.",
+  "category": "platform",
+  "container": "mp4",
+  "video": {
+    "codec": "hevc",
+    "width": 5760,
+    "height": 2880,
+    "fit": "stretch",
+    "rateControl": "vbr",
+    "bitrateKbps": 100000,
+    "maxBitrateKbps": 150000,
+    "projection": "equirectangular"
+  },
+  "audio": {
+    "codec": "aac",
+    "rateControl": "cbr",
+    "bitrateKbps": 192,
+    "loudness": {
+      "lufs": -14,
+      "truePeak": -1
+    }
+  }
+}

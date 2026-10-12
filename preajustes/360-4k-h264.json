@@ -1,0 +1,29 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "360-4k-h264",
+  "name": "Video 360 4K (H.264)",
+  "description": "Equirectangular de 3840×1920 en H.264 con metadatos esféricos, para reproductores que no leen HEVC.",
+  "category": "platform",
+  "container": "mp4",
+  "video": {
+    "codec": "h264",
+    "profile": "high",
+    "width": 3840,
+    "height": 1920,
+    "fit": "stretch",
+    "rateControl": "vbr",
+    "bitrateKbps": 45000,
+    "maxBitrateKbps": 68000,
+    "projection": "equirectangular"
+  },
+  "audio": {
+    "codec": "aac",
+    "rateControl": "cbr",
+    "bitrateKbps": 192,
+    "loudness": {
+      "lufs": -14,
+      "truePeak": -1
+    }
+  }
+}

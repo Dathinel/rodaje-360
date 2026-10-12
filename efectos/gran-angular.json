@@ -1,0 +1,17 @@
+{
+  "format": "rodaje.effect",
+  "version": 1,
+  "id": "gran-angular",
+  "name": "Gran angular",
+  "description": "Campo de visión de 120°, como una cámara de acción.",
+  "anchor": "whole",
+  "durationSeconds": 1,
+  "effects": [
+    {
+      "type": "rodaje.reframe360",
+      "parameters": {
+        "fov": 120
+      }
+    }
+  ]
+}
