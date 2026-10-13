@@ -11,6 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-CC0_1.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia CC0 1.0"></a>
   <a href="https://github.com/Dathinel/rodaje-360/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-360?style=flat-square&labelColor=1D1D1D&color=E8833A&label=versi%C3%B3n" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/contenido-9_efectos_%C2%B7_3_preajustes-E8833A?style=flat-square&labelColor=1D1D1D" alt="Contenido: 9 efectos · 3 preajustes">
   <img src="https://img.shields.io/badge/formato-.paquete-E8833A?style=flat-square&labelColor=1D1D1D" alt="Formato .paquete">
   <a href="https://github.com/Dathinel/rodaje"><img src="https://img.shields.io/badge/para-Rodaje-E8833A?style=flat-square&labelColor=1D1D1D" alt="Para Rodaje"></a>
 </p>
@@ -28,7 +29,7 @@ Para editar en 360 y exportar en 360, crea la secuencia en 2:1 (por ejemplo 3840
 
 ## Instalar en Rodaje
 
-En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-360-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-360/releases) y usa «Instalar desde archivo…» en Complementos.
+En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-360-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-360/releases) y usa «Instalar desde archivo…» en Complementos. Más detalles en la [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
 
 ## Construir el paquete
 
